@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Rowdies';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(./fonts/Rowdies-Light.ttf);
+  }
+
+
+
+html{
+    width: 100%;
+    background-color: black;
+    font-family: Rowdies;
+}
+body{
+    background-image: url(/img/fundotrue.png);
+    background-repeat: no-repeat;
+}
+p{
+    font-size: 40px;
+    color: rgb(184, 23, 23);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+hr{
+    color: rgb(184, 23, 23);
+}
