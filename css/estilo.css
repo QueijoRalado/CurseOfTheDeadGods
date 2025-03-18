@@ -4,7 +4,7 @@
     font-weight: 300;
     font-display: swap;
     src: url(./fonts/Rowdies-Light.ttf);
-  }
+}
 
 
 
@@ -13,8 +13,13 @@ html{
     background-color: black;
     font-family: Rowdies;
 }
+h2{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+}
 body{
-    background-image: url(/img/fundotrue.png);
+    background-image: url(/img/fundotrueeetalvez.jpg);
     background-repeat: no-repeat;
 }
 p{
@@ -24,6 +29,36 @@ p{
     margin-left: 10%;
     margin-right: 10%;
 }
-hr{
-    color: rgb(184, 23, 23);
+.separador{
+    margin-left: 23%;
+    width: 1000px;
+}
+.loginho{
+    margin-left: 43%;
+}
+.gameplay{
+    border: solid 10px;
+    border-color: rgb(118, 48, 143);
+    background-color: rgb(28, 4, 51);
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 75px;
+}
+.artigos{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 75px;
+}
+
+.artigos section{
+    display: flex;
+    flex-direction: column;
+}
+
+.artigos section h2{
+    font-size: small;
 }
