@@ -17,6 +17,7 @@ h2{
     color: aliceblue;
     font-size: 40px;
     text-align: center;
+    margin: 0;
 }
 .body_site_principal{
     background-image: url(/img/fundotrueeetalvez.jpg);
@@ -61,4 +62,12 @@ p{
 
 .artigos section h2{
     font-size: medium;
+}
+.titulo_armas{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
 }

@@ -55,8 +55,8 @@ def buscar_armas():
                     print("DANO = ", dano)
                     print("DANO CRITICO =", dano_critico)
                     print("ICONE =", icone)
-                    armas[categoria].append([icone, nome, habilidade, dano, dano_critico])
-                    #armas[categoria].append([nome, habilidade, dano, dano_critico])
+                    #armas[categoria].append([icone, nome, habilidade, dano, dano_critico])
+                    armas[categoria].append([nome, habilidade, dano, dano_critico])
                        
             #armas[categoria].append([icone, nome, habilidade, dano, dano_critico])
         
