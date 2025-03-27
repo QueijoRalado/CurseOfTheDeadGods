@@ -13,7 +13,7 @@ def buscar_armas():
     
     try:
         # Aguarda as tabelas carregarem
-        tabelas_armas = WebDriverWait(driver, 15).until(
+        tabelas_armas = WebDriverWait(driver, 20).until(
             EC.presence_of_all_elements_located((By.CLASS_NAME, "fandom-table.wikitable"))
         )
         
@@ -50,13 +50,13 @@ def buscar_armas():
                     dano = colunas[-2].text.strip()
                     dano_critico = colunas[-1].text.strip()
                     print("Categoria = ", categoria)
+                    print("ICONE =", icone)
                     print("NOME = ", nome)
                     print("HABILIDADE = ", habilidade)
                     print("DANO = ", dano)
                     print("DANO CRITICO =", dano_critico)
-                    print("ICONE =", icone)
-                    #armas[categoria].append([icone, nome, habilidade, dano, dano_critico])
-                    armas[categoria].append([nome, habilidade, dano, dano_critico])
+                    armas[categoria].append([icone, nome, habilidade, dano, dano_critico])
+                    #armas[categoria].append([nome, habilidade, dano, dano_critico])
                        
             #armas[categoria].append([icone, nome, habilidade, dano, dano_critico])
         
