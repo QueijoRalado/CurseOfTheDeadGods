@@ -25,6 +25,7 @@ def buscar_armas():
             
             for linha in linhas:
                 colunas = linha.find_elements(By.TAG_NAME, "td")
+                print(f"Número de colunas encontradas: {len(colunas)}")
                 if len(colunas[0].text.strip())>0:
                     categoria = (colunas[0].text.strip())
                     if categoria!= None:
@@ -49,13 +50,16 @@ def buscar_armas():
                     habilidade = colunas[-3].text.strip()
                     dano = colunas[-2].text.strip()
                     dano_critico = colunas[-1].text.strip()
+                    
                     print("Categoria = ", categoria)
                     print("ICONE =", icone)
                     print("NOME = ", nome)
                     print("HABILIDADE = ", habilidade)
                     print("DANO = ", dano)
                     print("DANO CRITICO =", dano_critico)
+                
                     armas[categoria].append([icone, nome, habilidade, dano, dano_critico])
+                    
                     #armas[categoria].append([nome, habilidade, dano, dano_critico])
                        
             #armas[categoria].append([icone, nome, habilidade, dano, dano_critico])

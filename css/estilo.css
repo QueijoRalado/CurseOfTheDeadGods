@@ -52,8 +52,8 @@ p{
     border: solid 10px;
     border-color: rgb(118, 48, 143);
     background-color: rgb(28, 4, 51);
-    margin-right: 24%;
-    margin-left: 24%;
+    margin-right: 25%;
+    margin-left: 25%;
     margin-top: 75px;
 }
 .artigos{
@@ -81,4 +81,10 @@ p{
     align-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
+}
+.link_sem_linha_em_baixo{
+    text-decoration: none;
+}
+.link_pra_voltar_pg_inicial{
+    text-decoration: underline rgb(138, 6, 6);
 }
