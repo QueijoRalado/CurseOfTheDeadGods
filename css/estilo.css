@@ -7,6 +7,17 @@
 }
 
 
+body{
+    cursor: url(../img/Temple_Cursor.png), auto;
+}
+
+a:hover{
+    cursor: url(../img/Temple_Cursor_maior.png), auto;
+}
+
+iframe{
+    text-align: center;
+}
 
 html{
     width: 100%;
