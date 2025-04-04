@@ -54,7 +54,6 @@ def buscar_armas():
                         pass  # Se não encontrar o link, mantém icone como ""
 
                     # Coleta os outros dados (com verificação para evitar IndexError)
-                    icone = colunas[-5].text.strip()
                     nome = colunas[-4].text.strip()
                     habilidade = colunas[-3].text.strip()
                     dano = colunas[-2].text.strip()
