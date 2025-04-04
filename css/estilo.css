@@ -50,6 +50,7 @@ p{
 }
 .gameplay{
     border: solid 10px;
+    border-radius: 5px;
     border-color: rgb(118, 48, 143);
     background-color: rgb(28, 4, 51);
     margin-right: 25%;

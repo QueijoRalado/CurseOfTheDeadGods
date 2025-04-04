@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import json
 
 def buscar_armas():
     # Inicia o WebDriver
@@ -12,14 +13,14 @@ def buscar_armas():
     try:
         # Aguarda as tabelas carregarem completamente
         WebDriverWait(driver, 20).until(
-            EC.presence_of_all_elements_located((By.CLASS_NAME, "fandom-table"))
+            EC.presence_of_all_elements_located((By.CLASS_NAME, "wikitable"))
         )
 
         # Força a rolagem para carregar todas as tabelas (caso haja lazy loading)
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(3)  # Espera um pouco para garantir que carregou
 
-        tabelas_armas = driver.find_elements(By.CLASS_NAME, "fandom-table")
+        tabelas_armas = driver.find_elements(By.CLASS_NAME, "wikitable")
         
         armas = {}
         categoria_atual = None  # Categoria em andamento
@@ -53,10 +54,11 @@ def buscar_armas():
                         pass  # Se não encontrar o link, mantém icone como ""
 
                     # Coleta os outros dados (com verificação para evitar IndexError)
-                    nome = colunas[-4].text.strip() if len(colunas) >= 4 else "Desconhecido"
-                    habilidade = colunas[-3].text.strip() if len(colunas) >= 3 else "Nenhuma"
-                    dano = colunas[-2].text.strip() if len(colunas) >= 2 else "0"
-                    dano_critico = colunas[-1].text.strip() if len(colunas) >= 1 else "0"
+                    icone = colunas[-5].text.strip()
+                    nome = colunas[-4].text.strip()
+                    habilidade = colunas[-3].text.strip()
+                    dano = colunas[-2].text.strip()
+                    custo = colunas[-1].text.strip()
 
                     # Exibe os dados para verificação
                     print("Categoria =", categoria_atual)
@@ -64,15 +66,18 @@ def buscar_armas():
                     print("NOME =", nome)
                     print("HABILIDADE =", habilidade)
                     print("DANO =", dano)
-                    print("DANO CRITICO =", dano_critico)
+                    print("CUSTO =", custo)
                     print("-" * 40)
 
                     # Adiciona a arma à sua respectiva categoria
-                    armas[categoria_atual].append([icone, nome, habilidade, dano, dano_critico])
+                    armas[categoria_atual].append([icone, nome, habilidade, dano, custo])
 
         # SALVAR EM UM ARQUIVO
-        with open("armas.txt", "w", encoding="utf-8") as arquivo:
-            arquivo.write(str(armas))  # Usa `str()` para evitar problemas de formatação
+        #with open("armasteste.txt", "w", encoding="utf-8") as arquivo:
+        #    arquivo.write(str(armas))  # Usa `str()` para evitar problemas de formatação
+
+        with open("testebelzebub.json", "w", encoding="utf-8") as arquivo:
+            json.dump(armas, arquivo, ensure_ascii=False, indent=4)
 
     except Exception as e:
         print(f"Erro: {e}")

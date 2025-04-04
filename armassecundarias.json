@@ -1,0 +1,227 @@
+{
+    "Pistols": [
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/1/11/COTDG-Icon-Pistol.png",
+            "Webley Top-Break Revolver",
+            "No special effect",
+            "20",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/5/5b/COTDG-Icon-AlchemistFirestick.png",
+            "Alchemist's Firestick",
+            "Kills make enemies drop twice as much gold",
+            "20",
+            "10"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/6/69/COTDG-Icon-Rainmaker.png",
+            "Colt .45 Rainmaker",
+            "Sufficiently charged ranged attacks always trigger Perfect Shots",
+            "22",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/f/fe/COTDG-Icon-LeMat.png",
+            "LeMat Grape Shot Revolver",
+            "Perfect Shots deal damage to all targets in a cone behind impact",
+            "20",
+            "5"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/9/9c/COTDG-Icon-SmithWesson.png",
+            "Smith & Wesson Schofield",
+            "Fire Perfect Shots and \"Off-hand Combo\"",
+            "22",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/c/cd/COTDG-Icon-DragonSleeveGun.png",
+            "Dragon Sleeve Gun",
+            "Poison attacks",
+            "16",
+            "5"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/5/54/COTDG-Icon-ExplosiveCrossbow.png",
+            "Crossbow of the Condemned",
+            "Slowly fires explosive shots, dealing damage in an area around impact",
+            "30",
+            "25"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/8/88/COTDG-Icon-Reaper.png",
+            "Reaper",
+            "Normal ranged attacks are ineffective; Perfect Shots deal double damage",
+            "20",
+            "15"
+        ]
+    ],
+    "Shields": [
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/0/07/COTDG-Icon-WornShield.png",
+            "Worn Shield",
+            "No special effect",
+            "35",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/a/ab/COTDG-Icon-AncientBuckler.png",
+            "Ancient Buckler",
+            "After a parry, your main weapon deals critical damage for 2 seconds",
+            "35",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/3/35/COTDG-Icon-WhisperingAegis.png",
+            "Whispering Aegis",
+            "25% chance to automatically trigger a Parry",
+            "35",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/a/ab/COTDG-Icon-BarbedShield.png",
+            "Barbed Shield",
+            "Reflects 50% of a parried melee attack's damage to the attacker",
+            "35",
+            "5"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/0/02/COTDG-Icon-BlazingShield.png",
+            "Blazing Shield",
+            "Fire attacks",
+            "32",
+            "5"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/e/e2/COTDG-Icon-StormsBulwark.png",
+            "Storm's Bulwark",
+            "Lightning attacks; triggers a lightning strike\non parried melee enemies",
+            "28",
+            "10"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/e/e0/COTDG-Icon-Fulmination.png",
+            "Fulmination, Death's Rampart",
+            "Parrying reflects projectiles",
+            "32",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/f/f5/COTDG-Icon-Sunderer.png",
+            "\"Sunderer\", fist of doom",
+            "Simple attack and off-hand combo deliver massive damage at the cost of 1 stamina point",
+            "30",
+            "50"
+        ]
+    ],
+    "Daggers": [
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/7/7e/COTDG-Icon-ChippedDagger.png",
+            "Chipped Dagger",
+            "No special ability",
+            "30",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/c/c5/COTDG-Icon-CeremonialDagger.png",
+            "Ceremonial Dagger",
+            "+3% base damage per point of Perception",
+            "27",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/9/91/COTDG-Icon-DuelistsShiv.png",
+            "Duelist's Shiv",
+            "Evading an attack with the Off-hand Combo fully Restores stamina",
+            "30",
+            "5"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/6/6f/COTDG-Icon-MaliciousSkewer.png",
+            "Malicious Skewer",
+            "Deals critical damage against Weakened enemies",
+            "24",
+            "5"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/0/0b/COTDG-Icon-ObsidanStiletto.png",
+            "Obsidian Stiletto",
+            "+50% damage for each element (Fire, Poison, Lightning) that afflicts the enemies hit",
+            "24",
+            "10"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/9/9c/COTDG-Icon-SerpentBlade.png",
+            "Serpent Blade",
+            "Poison attacks",
+            "24",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/9/9e/COTDG-Icon-HeartRender.png",
+            "Heart render, the Flesh Eater",
+            "Each kill permanently increases base damage by 5% (up to 200%)",
+            "15",
+            "15"
+        ]
+    ],
+    "Whips": [
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/b/b4/COTDG-Icon-BraidedWhip.png",
+            "Braided Whip",
+            "No special effect",
+            "36",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/e/e3/COTDG-Icon-BarbedWhip.png",
+            "Barbed Whip",
+            "Charged attacks weaken enemies",
+            "29",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/2/24/COTDG-Icon-BoneShardWhip.png",
+            "Bone Shard Whip",
+            "Kills make attacks deal critical damage for 3 seconds",
+            "32",
+            "5"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/c/c1/COTDG-Icon-DesparationFlail.png",
+            "Desperation's Flail",
+            "+15% damage per missing point of stamina",
+            "28",
+            "5"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/b/bf/COTDG-Icon-StingerLash.png",
+            "Stinger Lash",
+            "Poison attacks",
+            "29",
+            "10"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/9/90/COTDG-Icon-StormLash.png",
+            "Storm Lash",
+            "Lightning attacks",
+            "29",
+            "0"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/f/f5/COTDG-Icon-Flagellation.png",
+            "\"Flagellation\", Mistress of Agony",
+            "+50% damage while in the darkness",
+            "29",
+            "15"
+        ],
+        [
+            "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/4/4b/COTDG-Icon-Cataclysm.png",
+            "\"Cataclysm\", T'amok's Fury",
+            "Fire attacks; hits on characters have a 50% chance to summon a fire jewel",
+            "36",
+            "50"
+        ]
+    ]
+}

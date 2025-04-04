@@ -1,0 +1,666 @@
+{
+    "Swords": [
+        [
+            "",
+            "Machete",
+            "No special effect",
+            "15",
+            "0"
+        ],
+        [
+            "",
+            "War Macana",
+            "Charged Attacks deal critical damage",
+            "13",
+            "5"
+        ],
+        [
+            "",
+            "Sacrificial Macana",
+            "Deals critical damage when only one enemy is nearby",
+            "15",
+            "10"
+        ],
+        [
+            "",
+            "Sidewinder Sword",
+            "Finishers cost no stamina",
+            "15",
+            "0"
+        ],
+        [
+            "",
+            "Gusting Glaive",
+            "Charged Attacks send a wind slash that damages all enemies in its path",
+            "15",
+            "5"
+        ],
+        [
+            "",
+            "Blazing Blade",
+            "Fire Charged Attacks and Fire Combo finishers",
+            "15",
+            "0"
+        ],
+        [
+            "",
+            "Abnegation, Xbeltz'aloc's Blade",
+            "Finishers and Charged Attacks interrupt enemies' attacks",
+            "12",
+            "15"
+        ],
+        [
+            "",
+            "Sword of Conjunctivius",
+            "Any enemy attack instantly kills you (does not apply to traps)",
+            "45",
+            "100"
+        ],
+        [
+            "",
+            "Moonblade, Night's Sword",
+            "Charged Attacks trigger a powerful dash attack, damaging all crossed enemies",
+            "15",
+            "50"
+        ],
+        [
+            "",
+            "Blunt Claws",
+            "No special effect",
+            "12",
+            "0"
+        ],
+        [
+            "",
+            "Claws of Evisceration",
+            "Deals critical damage against enemies under 30% health",
+            "12",
+            "5"
+        ],
+        [
+            "",
+            "Steel-Tipped Talons",
+            "Deals critical damage for 3 seconds after a Perfect Dodge",
+            "12",
+            "0"
+        ],
+        [
+            "",
+            "Warmonger Claws",
+            "+3% base damage per point of Constitution",
+            "12",
+            "10"
+        ],
+        [
+            "",
+            "Incandescent Claws",
+            "Fire attacks",
+            "13",
+            "5"
+        ],
+        [
+            "",
+            "Venomous Fangs",
+            "Poison attacks",
+            "12",
+            "0"
+        ],
+        [
+            "",
+            "\"Gambit\" Xbeltz'aloc's Gauntlet",
+            "Charged Attack land an additional Hit during the dash",
+            "12",
+            "10"
+        ],
+        [
+            "",
+            "\"Disembowler\", Dread Claw",
+            "Finishers add two spin attacks",
+            "13",
+            "50"
+        ],
+        [
+            "",
+            "Stone Hammer",
+            "No special effect",
+            "25",
+            "0"
+        ],
+        [
+            "",
+            "Slaver's Mace",
+            "Finishers deal critical damage",
+            "23",
+            "0"
+        ],
+        [
+            "",
+            "Forge Hammer",
+            "Deals critical damage against Burning Enemies",
+            "22",
+            "5"
+        ],
+        [
+            "",
+            "Jewel Hammer",
+            "Provides passive illumination",
+            "25",
+            "5"
+        ],
+        [
+            "",
+            "Seeker's Mace",
+            "+5% base damage per level of relics carried",
+            "20",
+            "0"
+        ],
+        [
+            "",
+            "Spark Hammer",
+            "Lightning attacks",
+            "20",
+            "10"
+        ],
+        [
+            "",
+            "Desperation, Xbeltz'aloc's Scepter",
+            "Base Damage increase by your percentage of missing HP",
+            "20",
+            "0"
+        ]
+    ],
+    "Throwing Weapons": [
+        [
+            "",
+            "Throwing Knives",
+            "No special effect",
+            "16",
+            "0"
+        ],
+        [
+            "",
+            "Hunting Axes",
+            "+100% damage against Weakened enemies",
+            "13",
+            "0"
+        ],
+        [
+            "",
+            "Silver Stars",
+            "Perfect Dodges trigger a volley of projectiles",
+            "15",
+            "5"
+        ],
+        [
+            "",
+            "Weighted Blades",
+            "Projectile damage increases based on the distance traveled before impact (up to +50%)",
+            "14",
+            "0"
+        ],
+        [
+            "",
+            "Evasive Knives",
+            "Automatic Dodge during Charged Attack",
+            "16",
+            "5"
+        ],
+        [
+            "",
+            "Chromatic Knives",
+            "Each combo deals a random type of elemental damage (Fire, Poison, or Lightning)",
+            "11",
+            "10"
+        ],
+        [
+            "",
+            "\"Heartseekers\", Teeth of Death",
+            "Projectiles have greater range and pierce through enemies",
+            "16",
+            "15"
+        ],
+        [
+            "",
+            "Webley Top-Break Revolver",
+            "No special effect",
+            "20",
+            "0"
+        ],
+        [
+            "",
+            "Alchemist's Firestick",
+            "Kills make enemies drop twice as much gold",
+            "20",
+            "10"
+        ],
+        [
+            "",
+            "Colt .45 Rainmaker",
+            "Sufficiently charged ranged attacks always trigger Perfect Shots",
+            "22",
+            "0"
+        ],
+        [
+            "",
+            "LeMat Grape Shot Revolver",
+            "Perfect Shots deal damage to all targets in a cone behind impact",
+            "20",
+            "5"
+        ],
+        [
+            "",
+            "Smith & Wesson Schofield",
+            "Fire Perfect Shots and \"Off-hand Combo\"",
+            "22",
+            "0"
+        ],
+        [
+            "",
+            "Dragon Sleeve Gun",
+            "Poison attacks",
+            "16",
+            "5"
+        ],
+        [
+            "",
+            "Crossbow of the Condemned",
+            "Slowly fires explosive shots, dealing damage in an area around impact",
+            "30",
+            "25"
+        ],
+        [
+            "",
+            "Reaper",
+            "Normal ranged attacks are ineffective; Perfect Shots deal double damage",
+            "20",
+            "15"
+        ],
+        [
+            "",
+            "Worn Shield",
+            "No special effect",
+            "35",
+            "0"
+        ],
+        [
+            "",
+            "Ancient Buckler",
+            "After a parry, your main weapon deals critical damage for 2 seconds",
+            "35",
+            "0"
+        ],
+        [
+            "",
+            "Whispering Aegis",
+            "25% chance to automatically trigger a Parry",
+            "35",
+            "0"
+        ],
+        [
+            "",
+            "Barbed Shield",
+            "Reflects 50% of a parried melee attack's damage to the attacker",
+            "35",
+            "5"
+        ],
+        [
+            "",
+            "Blazing Shield",
+            "Fire attacks",
+            "32",
+            "5"
+        ],
+        [
+            "",
+            "Storm's Bulwark",
+            "Lightning attacks; triggers a lightning strike\non parried melee enemies",
+            "28",
+            "10"
+        ],
+        [
+            "",
+            "Fulmination, Death's Rampart",
+            "Parrying reflects projectiles",
+            "32",
+            "0"
+        ],
+        [
+            "",
+            "\"Sunderer\", fist of doom",
+            "Simple attack and off-hand combo deliver massive damage at the cost of 1 stamina point",
+            "30",
+            "50"
+        ],
+        [
+            "",
+            "Chipped Dagger",
+            "No special ability",
+            "30",
+            "0"
+        ],
+        [
+            "",
+            "Ceremonial Dagger",
+            "+3% base damage per point of Perception",
+            "27",
+            "0"
+        ],
+        [
+            "",
+            "Duelist's Shiv",
+            "Evading an attack with the Off-hand Combo fully Restores stamina",
+            "30",
+            "5"
+        ],
+        [
+            "",
+            "Malicious Skewer",
+            "Deals critical damage against Weakened enemies",
+            "24",
+            "5"
+        ],
+        [
+            "",
+            "Obsidian Stiletto",
+            "+50% damage for each element (Fire, Poison, Lightning) that afflicts the enemies hit",
+            "24",
+            "10"
+        ],
+        [
+            "",
+            "Serpent Blade",
+            "Poison attacks",
+            "24",
+            "0"
+        ],
+        [
+            "",
+            "Heart render, the Flesh Eater",
+            "Each kill permanently increases base damage by 5% (up to 200%)",
+            "15",
+            "15"
+        ]
+    ],
+    "Whips": [
+        [
+            "",
+            "Braided Whip",
+            "No special effect",
+            "36",
+            "0"
+        ],
+        [
+            "",
+            "Barbed Whip",
+            "Charged attacks weaken enemies",
+            "29",
+            "0"
+        ],
+        [
+            "",
+            "Bone Shard Whip",
+            "Kills make attacks deal critical damage for 3 seconds",
+            "32",
+            "5"
+        ],
+        [
+            "",
+            "Desperation's Flail",
+            "+15% damage per missing point of stamina",
+            "28",
+            "5"
+        ],
+        [
+            "",
+            "Stinger Lash",
+            "Poison attacks",
+            "29",
+            "10"
+        ],
+        [
+            "",
+            "Storm Lash",
+            "Lightning attacks",
+            "29",
+            "0"
+        ],
+        [
+            "",
+            "\"Flagellation\", Mistress of Agony",
+            "+50% damage while in the darkness",
+            "29",
+            "15"
+        ],
+        [
+            "",
+            "\"Cataclysm\", T'amok's Fury",
+            "Fire attacks; hits on characters have a 50% chance to summon a fire jewel",
+            "36",
+            "50"
+        ],
+        [
+            "",
+            "Primitive Spear",
+            "No special effect",
+            "30",
+            "0"
+        ],
+        [
+            "",
+            "Barbed Javelin",
+            "Finishers weaken enemies",
+            "24",
+            "0"
+        ],
+        [
+            "",
+            "Feathered Spear",
+            "Each kill restores 1 more stamina",
+            "27",
+            "0"
+        ],
+        [
+            "",
+            "Windfury Pike",
+            "Charged Attacks Hit 3 times instead of 2",
+            "24",
+            "10"
+        ],
+        [
+            "",
+            "Scorpion Spear",
+            "Poison attacks",
+            "22",
+            "5"
+        ],
+        [
+            "",
+            "Storm's Point",
+            "Lightning Attacks",
+            "22",
+            "5"
+        ],
+        [
+            "",
+            "Vengeance, Xbeltz'aloc's Spirit",
+            "A Dark Riposte occurs after a successful Parry",
+            "24",
+            "15"
+        ],
+        [
+            "",
+            "Bloodstake, Hunter's Torment",
+            "Finishers throw the spear, piercing through all enemies",
+            "30",
+            "50"
+        ],
+        [
+            "",
+            "Broken Longsword",
+            "No special effect",
+            "45",
+            "0"
+        ],
+        [
+            "",
+            "Primal Hammer",
+            "Charged attacks weaken enemies",
+            "45",
+            "0"
+        ],
+        [
+            "",
+            "Titan Slayer",
+            "Deals critical damage against Elites, Champions, and Bosses",
+            "40",
+            "10"
+        ],
+        [
+            "",
+            "Broadsword of the Knight",
+            "The second attack and the finisher always deal a critical hit",
+            "50",
+            "25"
+        ],
+        [
+            "",
+            "Jaguar Hammer",
+            "Fire attacks",
+            "40",
+            "5"
+        ],
+        [
+            "",
+            "Sky Hammer",
+            "Lightning attacks",
+            "36",
+            "5"
+        ],
+        [
+            "",
+            "Stone Breaker",
+            "Charged attacks strike 3 times in a line behind the point of impact",
+            "45",
+            "5"
+        ],
+        [
+            "",
+            "Blood Weeper, Life Seeper Macana",
+            "Attacks steal 10% HP",
+            "36",
+            "0"
+        ],
+        [
+            "",
+            "\"K'etyaam yaan\", Witch's Crook",
+            "Charged Attacks cast a volley of Dark projectiles",
+            "40",
+            "50"
+        ],
+        [
+            "",
+            "Stiff Bow",
+            "No special effect",
+            "15",
+            "0"
+        ],
+        [
+            "",
+            "Keen Bow",
+            "Fully Charged Shots inflict 50% more damage per character hit",
+            "13",
+            "0"
+        ],
+        [
+            "",
+            "Crippling Bow",
+            "Fully Charged Shots weaken enemies",
+            "13",
+            "5"
+        ],
+        [
+            "",
+            "Swift Bow",
+            "Kills increase movement speed for 5 seconds",
+            "15",
+            "0"
+        ],
+        [
+            "",
+            "Jaguar Bow",
+            "Fire attacks",
+            "13",
+            "5"
+        ],
+        [
+            "",
+            "Serpent Bow",
+            "Poison attacks",
+            "11",
+            "10"
+        ],
+        [
+            "",
+            "Annihilation, Bow of Madness",
+            "Perfect shots explode on impact in a Dark blast, dealing damage to ALL characters around",
+            "15",
+            "15"
+        ],
+        [
+            "",
+            "\"Effulgence\", Harbinger of Yaatz",
+            "Lightning attacks; special Dodge after a shot sends an additional arrow toward closest enemy",
+            "13",
+            "50"
+        ],
+        [
+            "",
+            "Pirate Bombs",
+            "No special effect",
+            "30",
+            "0"
+        ],
+        [
+            "",
+            "Crackling Grenades",
+            "Thrown bombs deal additional damage along their path",
+            "30",
+            "0"
+        ],
+        [
+            "",
+            "Sticks of Dynamite",
+            "Kills trigger a large blast that weakens all nearby enemies",
+            "30",
+            "0"
+        ],
+        [
+            "",
+            "Incendiary Bombs",
+            "Fire attacks",
+            "27",
+            "5"
+        ],
+        [
+            "",
+            "Fuming Skulls",
+            "Poison attacks",
+            "24",
+            "5"
+        ],
+        [
+            "",
+            "Lightning Orbs",
+            "Lightning attacks",
+            "24",
+            "10"
+        ],
+        [
+            "",
+            "\"Devouring Orbs\", Bombs of the Void",
+            "Charged attacks launch a single void bomb, attracting all nearby enemies before exploding",
+            "30",
+            "15"
+        ]
+    ]
+}
