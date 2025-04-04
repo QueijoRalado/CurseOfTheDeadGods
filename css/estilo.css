@@ -89,3 +89,8 @@ p{
 .link_pra_voltar_pg_inicial{
     text-decoration: underline rgb(138, 6, 6);
 }
+.exemplos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
