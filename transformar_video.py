@@ -1,7 +1,8 @@
-import cv2
 import os
+import subprocess
+import cv2
 
-def recortar_video(input_path, output_path, largura_crop=500, altura_crop=500):
+def recortar_e_converter(input_path, output_path, largura_crop=500, altura_crop=500):
     cap = cv2.VideoCapture(input_path)
 
     if not cap.isOpened():
@@ -13,12 +14,13 @@ def recortar_video(input_path, output_path, largura_crop=500, altura_crop=500):
     fps = cap.get(cv2.CAP_PROP_FPS)
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
 
-    # Coordenadas para centralizar o recorte
     x_inicio = (largura_total - largura_crop) // 2
     y_inicio = (altura_total - altura_crop) // 2 - 50
 
+    # Salvar temporariamente antes de converter
+    temp_output = output_path.replace(".mp4", "_temp.mp4")
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    out = cv2.VideoWriter(output_path, fourcc, fps, (largura_crop, altura_crop))
+    out = cv2.VideoWriter(temp_output, fourcc, fps, (largura_crop, altura_crop))
 
     for _ in range(total_frames):
         ret, frame = cap.read()
@@ -29,7 +31,25 @@ def recortar_video(input_path, output_path, largura_crop=500, altura_crop=500):
 
     cap.release()
     out.release()
-    print(f"✔️ {os.path.basename(output_path)} salvo com sucesso!")
+
+    # Agora converte usando ffmpeg para formato compatível com web
+    final_output = output_path
+    comando = [
+        "ffmpeg",
+        "-y",
+        "-i", temp_output,
+        "-vcodec", "libx264",
+        "-acodec", "aac",
+        "-movflags", "+faststart",
+        final_output
+    ]
+
+    try:
+        subprocess.run(comando, check=True)
+        os.remove(temp_output)  # Remove o arquivo temporário
+        print(f"✔️ {os.path.basename(final_output)} salvo e convertido com sucesso!")
+    except subprocess.CalledProcessError as e:
+        print(f"Erro ao converter vídeo com FFmpeg: {e}")
 
 def processar_pasta(caminho_pasta, largura_crop=500, altura_crop=500):
     saida_dir = os.path.join(caminho_pasta, "recortados")
@@ -39,9 +59,8 @@ def processar_pasta(caminho_pasta, largura_crop=500, altura_crop=500):
         if nome_arquivo.lower().endswith((".mp4", ".mov", ".avi", ".mkv")):
             caminho_video = os.path.join(caminho_pasta, nome_arquivo)
             caminho_saida = os.path.join(saida_dir, f"recortado_{nome_arquivo}")
-            recortar_video(caminho_video, caminho_saida, largura_crop, altura_crop)
+            recortar_e_converter(caminho_video, caminho_saida, largura_crop, altura_crop)
 
 if __name__ == "__main__":
-    # Substitua pelo caminho onde seus vídeos estão salvos
     pasta_dos_videos = "./videos"
     processar_pasta(pasta_dos_videos)

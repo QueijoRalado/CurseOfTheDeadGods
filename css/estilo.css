@@ -41,6 +41,13 @@ p{
     margin-left: 10%;
     margin-right: 10%;
 }
+.p2{
+    font-size: 40px;
+    color: rgb(118, 48, 143);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .separador{
     margin-left: 23%;
     width: 1000px;
@@ -93,4 +100,15 @@ p{
     display: flex;
     gap: 20px;
     justify-content: center;
-  }
+}
+.artigos{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.armas_aura{
+    margin-top: 25px; 
+    color: rgb(134, 20, 20); 
+    font-size: 60px;
+}
