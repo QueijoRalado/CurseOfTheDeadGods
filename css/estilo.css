@@ -112,3 +112,22 @@ p{
     color: rgb(134, 20, 20); 
     font-size: 60px;
 }
+.armas_separacao{
+    margin-bottom: 100px;
+}
+th{
+    font-size: 40px;
+    font-family: Rowdies;
+    color: rgb(184, 23, 23);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+td{
+    font-size: 40px;
+    font-family: Rowdies;
+    color: rgb(184, 23, 23);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}

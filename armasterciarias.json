@@ -1,232 +1,232 @@
 {
-    "Spears":[
+    "Lanças":[
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/6/6a/COTDG-Icon-PrimitiveSpear.png",
-            "Primitive Spear",
-            "No special effect",
+            "Lança Primitiva",
+            "Sem habilidade",
             "30",
             "0"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/1/13/COTDG-Icon-BarbedJavelin.png",
-            "Barbed Javelin",
-            "Finishers weaken enemies",
+            "Lança Farpada",
+            "Finalizadores enfraquecem os inimigos",
             "24",
             "0"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/5/5f/COTDG-Icon-FeatheredSpear.png",
-            "Feathered Spear",
-            "Each kill restores 1 more stamina",
+            "Lança Penada",
+            "Cada eliminação restaura mais 1 de Vigor",
             "27",
             "0"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/3/35/COTDG-Icon-WindfuryPike.png",
-            "Windfury Pike",
-            "Charged Attacks Hit 3 times instead of 2",
+            "Pique da Fúria do Vento",
+            "Ataques Carregados atingem 3 vezes ao invés de 2",
             "24",
             "10"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/2/24/COTDG-Icon-ScorpionSpear.png",
-            "Scorpion Spear",
-            "Poison attacks",
+            "Lança do Escorpião",
+            "Ataques Venenosos",
             "22",
             "5"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/6/63/COTDG-Icon-StormsPoint.png",
-            "Storm's Point",
-            "Lightning Attacks",
+            "Ponta da Tempestade",
+            "Ataques Elétricos",
             "22",
             "5"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/7/74/COTDG-Icon-Vengeance.png",
-            "Vengeance, Xbeltz'aloc's Spirit",
-            "A Dark Riposte occurs after a successful Parry",
+            "Vingança, Espirito de Xbeltz'aloc",
+            "Atacar após um Parry bem sucedido aciona um contra-ataque poderoso",
             "24",
             "15"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/0/0a/COTDG-Icon-Bloodstake.png",
-            "Bloodstake, Hunter's Torment",
-            "Finishers throw the spear, piercing through all enemies",
+            "Estaca Sangrenta, Tormento do Caçador",
+            "Os Finalizadores disparam lanças que perfuram todos os inimigos",
             "30",
             "50"
         ]
     ],
-    "Heavy Weapons": [
+    "Armas Pesadas": [
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/7/70/COTDG-Icon-BrokenLongsword.png",
-            "Broken Longsword",
-            "No special effect",
+            "Montante Quebrada",
+            "Sem habilidade",
             "45",
             "0"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/a/a7/COTDG-Icon-PrimalHammer.png",
-            "Primal Hammer",
-            "Charged attacks weaken enemies",
+            "Martelo Primitivo",
+            "Ataques Carregados enfraquecem os inimigos",
             "45",
             "0"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/d/d8/COTDG-Icon-TitanSlayer.png",
-            "Titan Slayer",
-            "Deals critical damage against Elites, Champions, and Bosses",
+            "Exterminador de Titâs",
+            "Causa Dano Crítico contra Elites, Campeões e Chefes",
             "40",
             "10"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/0/00/COTDG-Icon-Broadsword.png",
-            "Broadsword of the Knight",
-            "The second attack and the finisher always deal a critical hit",
+            "Montante Amazona",
+            "O segundo ataque e o Finalizador sempre causam Dano Crítico",
             "50",
             "25"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/6/69/COTDG-Icon-JaguarHammer.png",
-            "Jaguar Hammer",
-            "Fire attacks",
+            "Martelo do Jaguar",
+            "Ataques de Fogo",
             "40",
             "5"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/8/8d/COTDG-Icon-SkyHammer.png",
-            "Sky Hammer",
-            "Lightning attacks",
+            "Martelo Celeste",
+            "Ataques Elétricos",
             "36",
             "5"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/0/0e/COTDG-Icon-StoneBreaker.png",
-            "Stone Breaker",
-            "Charged attacks strike 3 times in a line behind the point of impact",
+            "Quebra-Pedras",
+            "Ataques Carregados acertam 3 vezes seguidas atrás do ponto de impacto",
             "45",
             "5"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/0/0b/COTDG-Icon-BloodWeeper.png",
-            "Blood Weeper, Life Seeper Macana",
-            "Attacks steal 10% HP",
+            "Lágrima de Sangue, Martelo Filtra Vida",
+            "Ataques curam 10% do dano causado",
             "36",
             "0"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/0/08/COTDG-Icon-KetyaamYaan.png",
-            "\"K'etyaam yaan\", Witch's Crook",
-            "Charged Attacks cast a volley of Dark projectiles",
+            "\"K'etyaam yaan\", o Báculo da Bruxa",
+            "Ataques Carregados conjuram uma rajada de projéteis Sombrios",
             "40",
             "50"
         ]
     ],
-    "Bow": [
+    "Arcos": [
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/7/7d/COTDG-Icon-StiffBow.png",
-            "Stiff Bow",
-            "No special effect",
+            "Arco Improvisado",
+            "Sem habilidade",
             "15",
             "0"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/e/e6/COTDG-Icon-KeenBow.png",
-            "Keen Bow",
-            "Fully Charged Shots inflict 50% more damage per character hit",
+            "Arco Afiado",
+            "Tiros totalmente Carregados causam mais 50% de dano a cada personagem alvejado",
             "13",
             "0"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/3/35/COTDG-Icon-CripplingBow.png",
-            "Crippling Bow",
-            "Fully Charged Shots weaken enemies",
+            "Arco Incapacitante",
+            "Tiros totalmente Carregados enfraquecem os inimigos",
             "13",
             "5"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/c/c8/COTDG-Icon-SwiftBow.png",
-            "Swift Bow",
-            "Kills increase movement speed for 5 seconds",
+            "Arco Veloz",
+            "Eliminações aumentam a velocidade de movimento por 5 segundos",
             "15",
             "0"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/0/00/COTDG-Icon-JaguarBow.png",
-            "Jaguar Bow",
-            "Fire attacks",
+            "Arco do Jaguar",
+            "Ataques de Fogo",
             "13",
             "5"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/e/ed/COTDG-Icon-SerpentBow.png",
-            "Serpent Bow",
-            "Poison attacks",
+            "Arco da Serpente",
+            "Ataques Venenosos",
             "11",
             "10"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/9/9f/COTDG-Icon-Annihilation.png",
-            "Annihilation, Bow of Madness",
-            "Perfect shots explode on impact in a Dark blast, dealing damage to ALL characters around",
+            "Aniquilação, Arco da Loucura",
+            "Tiros totalmente Carregados explodem com o impacto, liberando uma onde de choque combria que causa dano a TODOS que estivem ao redor",
             "15",
             "15"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/6/66/COTDG-Icon-Effulgence.png",
-            "\"Effulgence\", Harbinger of Yaatz",
-            "Lightning attacks; special Dodge after a shot sends an additional arrow toward closest enemy",
+            "Esplendor, Prenúncio de Yaatz",
+            "Ataques Elétricos; A Esquiva especial após um disparo lança uma flecha adicional contra o inimigo mais próximo",
             "13",
             "50"
         ]
     ],
-    "Bombs": [
+    "Explosivos": [
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/6/65/COTDG-Icon-PirateBombs.png",
-            "Pirate Bombs",
-            "No special effect",
+            "Bomba Pirata",
+            "Sem habilidade",
             "30",
             "0"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/2/29/COTDG-Icon-CracklingGrenades.png",
-            "Crackling Grenades",
-            "Thrown bombs deal additional damage along their path",
+            "Granadas Crepitantes",
+            "Bombas Lançadas causam dano adicional em seu caminho",
             "30",
             "0"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/c/c2/COTDG-Icon-StickDynamites.png",
-            "Sticks of Dynamite",
-            "Kills trigger a large blast that weakens all nearby enemies",
+            "Bananas de Dinamite",
+            "Eliminações ativam uma grande explosão que enfraquece todos os inimigos próximos",
             "30",
             "0"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/8/89/COTDG-Icon-IncendiaryBombs.png",
-            "Incendiary Bombs",
-            "Fire attacks",
+            "Bombas Incendiárias",
+            "Ataques de Fogo",
             "27",
             "5"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/3/3f/COTDG-Icon-FumingSkulls.png",
-            "Fuming Skulls",
-            "Poison attacks",
+            "Crânios Fumegantes",
+            "Ataques Venenosos",
             "24",
             "5"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/3/36/COTDG-Icon-LightingOrbs.png",
-            "Lightning Orbs",
-            "Lightning attacks",
+            "Orbes Relampejantes",
+            "Ataques Elétricos",
             "24",
             "10"
         ],
         [
             "https://static.wikia.nocookie.net/curseofthedeadgods_gamepedia_en/images/2/2c/COTDG-Icon-DevouringOrbs.png",
-            "\"Devouring Orbs\", Bombs of the Void",
-            "Charged attacks launch a single void bomb, attracting all nearby enemies before exploding",
+            "Orbes Devoradoras, Bombas do Vácuo",
+            "Ataques Carregado lançam uma única bomba de vácuo que atrai todos os inimigos próximos antes de explodir",
             "30",
             "15"
         ]
