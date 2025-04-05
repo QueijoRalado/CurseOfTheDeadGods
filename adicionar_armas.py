@@ -90,8 +90,8 @@ th {
         )
                 file.write(
                        f"""
-                <p class="armas_aura">{categoria}</p>
                 <img src="../img/separador.webp" alt="">
+                <p class="armas_aura">{categoria}</p>
                 """
                 )
 
@@ -180,11 +180,16 @@ th {
                                         file.write(f'<td>{dado}</td>')
                                 n+=1
                         file.write('</tr>')
+                file.write(
+                       """
+                </table>
+"""
+                )
         
         file.write(
             """
     <div style="text-align: center; margin: 50px 0;">
-        <a href="../index.html">
+        <a href="armas.html">
             <img src="../img/logobss.webp" alt="Voltar à página principal" style="width: 200px;">
         </a>
     </div>
